@@ -3,6 +3,11 @@ const giorgi = $('#giorgi');
 $(document).on('click', function () {
     q++;
 
+    if (q == 1) {
+        $('.overlay').hide();
+        return;
+    }
+
     audio = new Audio(`assets/sound/punch.mp3`);
     audio.play();
 
