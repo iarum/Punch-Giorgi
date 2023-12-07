@@ -10,21 +10,26 @@ body {
     align-items: center;
     min-height: 100vh;
     user-select: none;
+    overflow: hidden !important;
+}
+
+#root {
+    overflow: hidden !important;
 }
 
 .left,
 .right {
-    width: 200px;
+    width: 150px;
     position: absolute;
     bottom: 10%;
     transition: 0.2s;
 }
 
 .left {
-    left: 27%;
+    left: 0%;
 }
 
 .right {
-    left: 55%;
+    left: 60%;
     transform: scaleX(-1);
 }
