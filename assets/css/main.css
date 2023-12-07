@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'dejavu';
+    src: url(../font/bpg_dejavu_sans.ttf);
+}
+
+body {
+    font-family: 'dejavu';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    user-select: none;
+}
+
+.left,
+.right {
+    width: 200px;
+    position: absolute;
+    bottom: 10%;
+    transition: 0.2s;
+}
+
+.left {
+    left: 27%;
+}
+
+.right {
+    left: 55%;
+    transform: scaleX(-1);
+}
