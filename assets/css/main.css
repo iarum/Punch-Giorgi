@@ -11,10 +11,17 @@ body {
     min-height: 100vh;
     user-select: none;
     overflow: hidden !important;
+    background-image: url(../img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
 }
 
 #root {
     overflow: hidden !important;
+}
+
+#giorgi {
+    transition: 0.2s;
 }
 
 .left,
@@ -26,7 +33,7 @@ body {
 }
 
 .left {
-    left: 0%;
+    left: 2%;
 }
 
 .right {
