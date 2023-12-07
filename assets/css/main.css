@@ -28,8 +28,8 @@ body {
 .right {
     width: 150px;
     position: absolute;
-    bottom: 10%;
-    transition: 0.2s;
+    top: 78%;
+    transition: 0.1s;
 }
 
 .left {
@@ -39,4 +39,22 @@ body {
 .right {
     left: 60%;
     transform: scaleX(-1);
+}
+
+.left-eff {
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    opacity: 0;
+    transition: 0.2s;
+}
+
+.right-eff {
+    width: 200px;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    opacity: 0;
+    transition: 0.2s;
 }
